@@ -1,0 +1,32 @@
+Refs,Desc,datasheet,digikey#,footprint,manf,manf#,value
+C1,10uF 10% 16V Ceramic Capacitor X5R 0805 ,,490-6473-1-ND,footprints:c_0805,Murata Electronics North America,GRM21BR61C106KE15K,10uF
+C2,10uF 10% 16V Ceramic Capacitor X5R 0805,,490-6473-1-ND,footprints:c_0805,Murata Electronics North America,GRM21BR61C106KE15K,10uF
+C3,10uF 10% 16V Ceramic Capacitor X5R 0805,,490-6473-1-ND ,footprints:c_0805,Murata Electronics North America,GRM21BR61C106KE15K,10uF
+C4,10uF 10% 16V Ceramic Capacitor X5R 0805,,490-6473-1-ND,footprints:c_0805,Murata Electronics North America,GRM21BR61C106KE15K,10uF
+C5,10uF 10% 16V Ceramic Capacitor X5R 0805,,490-6473-1-ND,footprints:c_0805,Murata Electronics North America,GRM21BR61C106KE15K,10uF
+C6,10uF 10% 16V Ceramic Capacitor X5R 0805,,490-6473-1-ND,footprints:c_0805,Murata Electronics North America,GRM21BR61C106KE15K,10uF
+C7,0.10uF 10% 16V Ceramic Capacitor X7R 0805,,490-1683-1-ND,footprints:c_0805,Murata Electronics North America,GRM219R71C104KA01D,0.1uF
+CON1,"Power Barrel Connector Jack 0.70mm ID (0.028), 2.35mm OD (0.093) EIAJ-1 Surface Mount, Right Angle",,CP-038PJCT-ND,footprints:Pj-38-smt,CUI Inc.,PJ-038-SMT-TR,BARREL_JACK
+CON2,Pad de coneccion para una eventual bateria,,,footprints:GS2,,,TP1
+CON3,"10 Positions Header, Unshrouded Connector 0.100 (2.54mm) Through Hole Tin",,609-3243-ND,Pin_Headers:Pin_Header_Straight_2x05,Amphenol FCI,67997-410HLF,SWD_BT
+CON4,"10 Positions Header, Unshrouded Connector 0.100 (2.54mm) Through Hole Tin",,609-3243-ND,Pin_Headers:Pin_Header_Straight_2x05,Amphenol FCI,67997-410HLF,SWD_MCU
+D1,Red 645nm LED Indication - Discrete 1.8V 0805 (2012 Metric),,475-1415-1-ND,footprints:LED-0805,OSRAM Opto Semiconductors Inc.,LH R974-LP-1,Led
+D2,Red 645nm LED Indication - Discrete 1.8V 0805 (2012 Metric),,475-1415-1-ND,footprints:LED-0805,OSRAM Opto Semiconductors Inc.,LH R974-LP-1,Led
+G1,Logo  INTI,,,footprints:LOGO_INTI,,,LOGO_INTI
+J1,"10 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold",,H11719CT-ND,footprints:df12(3.0)-10ds-0.5v,Hirose Electric Co Ltd,DF12B3.0-10DS-0.5V86,DF12B-3.0-10DS-0.5V-81
+R1,RES SMD 270 OHM 1% 1/8W 0805 ,,311-270CRCT-ND,footprints:r_0805,Yageo,RC0805FR-07270RL,270
+R2,RES SMD 470 OHM 1% 1/8W 0805 ,,311-470CRCT-ND ,footprints:r_0805,Yageo,RC0805FR-07470RL,470
+R3,RES SMD 1.2K OHM 1% 1/8W 0805 ,,311-1.20KCRCT-ND ,footprints:r_0805,Yageo,RC0805FR-071K2L ,"1,2k"
+R4,RES SMD 280 OHM 1% 1/8W 0805 ,,311-280CRCT-ND ,footprints:r_0805,Yageo,RC0805FR-07280RL ,280
+R5,RES SMD 10K OHM 5% 1/4W 0805,,RPC0805JT10K0DKR-ND,footprints:r_0805,Stackpole Electronics Inc.,RPC0805JT10K0,10K
+R6,RES SMD 4.7K OHM 5% 1/2W 0805,,P16962CT-ND,footprints:r_0805,Panasonic Electronic Components,ERJ-P6WJ472V,"4,7K"
+R7,RES SMD 4.7K OHM 5% 1/2W 0805,,P16962CT-ND,footprints:r_0805,Panasonic Electronic Components,ERJ-P6WJ472V,"4,7K"
+R8,RES SMD 4.7K OHM 5% 1/2W 0805,,P16962CT-ND,footprints:r_0805,Panasonic Electronic Components,ERJ-P6WJ472V,4K7
+SW1,Tactile Switch SPST-NO Top Actuated Surface Mount,,SW1143CT-ND,footprints:B3U_1000PB,Omron Electronics Inc-EMC Div,B3U-1000P-B,SIDE_SW
+SW2,Tactile Switch SPST-NO Top Actuated Surface Mount,,SW1143CT-ND,footprints:B3U_1000PB,Omron Electronics Inc-EMC Div,B3U-1000P-B,SIDE_SW
+U1,Linear Voltage Regulator IC Positive Adjustable 1 Output 1.25 V  13.8 V 800mA SOT-223,,LM1117MPX-ADJ/NOPBCT-ND,footprints:sot223,Texas Instruments,LM1117MPX-ADJ/NOPB,LM1117
+U2,Linear Voltage Regulator IC Positive Adjustable 1 Output 1.25 V  13.8 V 800mA SOT-223,,LM1117MPX-ADJ/NOPBCT-ND ,footprints:sot223,Texas Instruments,LM1117MPX-ADJ/NOPB,LM1117
+C10,CAP CER 0.1UF 16V X7R 0805 ,,490-1683-1-ND ,footprints:c_0805,Murata Electronics North America,GRM219R71C104KA01D ,0.1uF
+C11,CAP CER 0.1UF 16V X7R 0805 ,,490-1683-1-ND ,footprints:c_0805,Murata Electronics North America,GRM219R71C104KA01D ,0.1uF
+C8,CAP CER 0.1UF 16V X7R 0805 ,,490-1683-1-ND ,footprints:c_0805,Murata Electronics North America,GRM219R71C104KA01D ,0.1uF
+C9,CAP CER 0.1UF 16V X7R 0805 ,,490-1683-1-ND ,footprints:c_0805,Murata Electronics North America,GRM219R71C104KA01D ,0.1uF

@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/enye2/enye-ext/mini/PCB_wearable/expansion_prog/Expansion_Programacion.sch</source>
+    <date>mar 23 may 2017 15:58:06 ART</date>
+    <tool>Eeschema 4.0.2+dfsg1-2~bpo8+1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Enye mini expansión de programación</title>
+        <company>INTI/Enyetech</company>
+        <rev>0.1</rev>
+        <date>2017-02-20</date>
+        <source>Expansion_Programacion.sch</source>
+        <comment number="1" value="Revisores: Alamon Diego, Brengi Diego, Scotti Noelia "/>
+        <comment number="2" value="Licencia:  BSD /Readme/LICENSE"/>
+        <comment number="3" value="Autor:  Villar Santiago"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>footprints:c_0805</footprint>
+      <fields>
+        <field name="Desc">0.10uF 10% 16V Ceramic Capacitor X7R 0805</field>
+        <field name="digikey#">490-1683-1-ND</field>
+        <field name="manf">Murata Electronics North America</field>
+        <field name="manf#">GRM219R71C104KA01D</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E50F6B</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4K7</value>
+      <footprint>footprints:r_0805</footprint>
+      <fields>
+        <field name="Desc">RES SMD 4.7K OHM 5% 1/2W 0805</field>
+        <field name="digikey#">P16962CT-ND</field>
+        <field name="manf">Panasonic Electronic Components</field>
+        <field name="manf#">ERJ-P6WJ472V</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580F517C</tstamp>
+    </comp>
+    <comp ref="G1">
+      <value>LOGO_INTI</value>
+      <footprint>footprints:LOGO_INTI</footprint>
+      <fields>
+        <field name="Desc">Logo  INTI</field>
+        <field name="Desc:">Logo  INTI</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="LOGO_INTI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581D407C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4,7K</value>
+      <footprint>footprints:r_0805</footprint>
+      <fields>
+        <field name="Desc">RES SMD 4.7K OHM 5% 1/2W 0805</field>
+        <field name="digikey#">P16962CT-ND</field>
+        <field name="manf">Panasonic Electronic Components</field>
+        <field name="manf#">ERJ-P6WJ472V</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E4768E</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SIDE_SW</value>
+      <footprint>footprints:B3U_1000PB</footprint>
+      <fields>
+        <field name="Desc">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="digikey#">SW1143CT-ND</field>
+        <field name="manf">Omron Electronics Inc-EMC Div</field>
+        <field name="manf#">B3U-1000P-B</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="SIDE_WTCM-TR(3x4)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584F10AF</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SIDE_SW</value>
+      <footprint>footprints:B3U_1000PB</footprint>
+      <fields>
+        <field name="Desc">Tactile Switch SPST-NO Top Actuated Surface Mount</field>
+        <field name="digikey#">SW1143CT-ND</field>
+        <field name="manf">Omron Electronics Inc-EMC Div</field>
+        <field name="manf#">B3U-1000P-B</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="SIDE_WTCM-TR(3x4)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>584F10EA</tstamp>
+    </comp>
+    <comp ref="CON2">
+      <value>TP1</value>
+      <footprint>footprints:GS2</footprint>
+      <fields>
+        <field name="Desc">Pad de coneccion para una eventual bateria</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="CON2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58503A3C</tstamp>
+    </comp>
+    <comp ref="CON3">
+      <value>SWD_BT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x05</footprint>
+      <fields>
+        <field name="Desc">10 Positions Header, Unshrouded Connector 0.100 (2.54mm) Through Hole Tin</field>
+        <field name="digikey#">609-3243-ND</field>
+        <field name="manf">Amphenol FCI</field>
+        <field name="manf#">67997-410HLF</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="BH10S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58503B4D</tstamp>
+    </comp>
+    <comp ref="CON4">
+      <value>SWD_MCU</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x05</footprint>
+      <fields>
+        <field name="Desc">10 Positions Header, Unshrouded Connector 0.100 (2.54mm) Through Hole Tin</field>
+        <field name="digikey#">609-3243-ND</field>
+        <field name="manf">Amphenol FCI</field>
+        <field name="manf#">67997-410HLF</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="BH10S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58503BF6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>470</value>
+      <footprint>footprints:r_0805</footprint>
+      <fields>
+        <field name="Desc">RES SMD 470 OHM 1% 1/8W 0805 </field>
+        <field name="digikey#">311-470CRCT-ND </field>
+        <field name="manf">Yageo</field>
+        <field name="manf#">RC0805FR-07470RL</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58506F1B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>280</value>
+      <footprint>footprints:r_0805</footprint>
+      <fields>
+        <field name="Desc">RES SMD 280 OHM 1% 1/8W 0805 </field>
+        <field name="digikey#">311-280CRCT-ND </field>
+        <field name="manf">Yageo</field>
+        <field name="manf#">RC0805FR-07280RL </field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58506FB0</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>270</value>
+      <footprint>footprints:r_0805</footprint>
+      <fields>
+        <field name="Desc">RES SMD 270 OHM 1% 1/8W 0805 </field>
+        <field name="digikey#">311-270CRCT-ND</field>
+        <field name="manf">Yageo</field>
+        <field name="manf#">RC0805FR-07270RL</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>585086DC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1,2k</value>
+      <footprint>footprints:r_0805</footprint>
+      <fields>
+        <field name="Desc">RES SMD 1.2K OHM 1% 1/8W 0805 </field>
+        <field name="digikey#">311-1.20KCRCT-ND </field>
+        <field name="manf">Yageo</field>
+        <field name="manf#">RC0805FR-071K2L </field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>585086E2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM1117</value>
+      <footprint>footprints:sot223</footprint>
+      <fields>
+        <field name="Desc">Linear Voltage Regulator IC Positive Adjustable 1 Output 1.25 V  13.8 V 800mA SOT-223</field>
+        <field name="digikey#">LM1117MPX-ADJ/NOPBCT-ND</field>
+        <field name="manf">Texas Instruments</field>
+        <field name="manf#">LM1117MPX-ADJ/NOPB</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="LM1117-RESCUE-Expancion_Programacion"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58509BF7</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM1117</value>
+      <footprint>footprints:sot223</footprint>
+      <fields>
+        <field name="Desc">Linear Voltage Regulator IC Positive Adjustable 1 Output 1.25 V  13.8 V 800mA SOT-223</field>
+        <field name="digikey#">LM1117MPX-ADJ/NOPBCT-ND </field>
+        <field name="manf">Texas Instruments</field>
+        <field name="manf#">LM1117MPX-ADJ/NOPB</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="LM1117-RESCUE-Expancion_Programacion"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58509C82</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>footprints:c_0805</footprint>
+      <fields>
+        <field name="Desc">10uF 10% 16V Ceramic Capacitor X5R 0805</field>
+        <field name="digikey#">490-6473-1-ND</field>
+        <field name="manf">Murata Electronics North America</field>
+        <field name="manf#">GRM21BR61C106KE15K</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58518D71</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>footprints:c_0805</footprint>
+      <fields>
+        <field name="Desc">10uF 10% 16V Ceramic Capacitor X5R 0805</field>
+        <field name="Desc:">10uF 10% 16V Ceramic Capacitor X5R 0805</field>
+        <field name="digikey#">490-6473-1-ND</field>
+        <field name="manf">Murata Electronics North America</field>
+        <field name="manf#">GRM21BR61C106KE15K</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58519153</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>footprints:c_0805</footprint>
+      <fields>
+        <field name="Desc">10uF 10% 16V Ceramic Capacitor X5R 0805</field>
+        <field name="digikey#">490-6473-1-ND</field>
+        <field name="manf">Murata Electronics North America</field>
+        <field name="manf#">GRM21BR61C106KE15K</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>585191A6</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Led</value>
+      <footprint>footprints:LED-0805</footprint>
+      <fields>
+        <field name="Desc">Red 645nm LED Indication - Discrete 1.8V 0805 (2012 Metric)</field>
+        <field name="digikey#">475-1415-1-ND</field>
+        <field name="manf">OSRAM Opto Semiconductors Inc.</field>
+        <field name="manf#">LH R974-LP-1</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5851AFCD</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4,7K</value>
+      <footprint>footprints:r_0805</footprint>
+      <fields>
+        <field name="Desc">RES SMD 4.7K OHM 5% 1/2W 0805</field>
+        <field name="digikey#">P16962CT-ND</field>
+        <field name="manf">Panasonic Electronic Components</field>
+        <field name="manf#">ERJ-P6WJ472V</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5851B5F7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Led</value>
+      <footprint>footprints:LED-0805</footprint>
+      <fields>
+        <field name="Desc">Red 645nm LED Indication - Discrete 1.8V 0805 (2012 Metric)</field>
+        <field name="digikey#">475-1415-1-ND</field>
+        <field name="manf">OSRAM Opto Semiconductors Inc.</field>
+        <field name="manf#">LH R974-LP-1</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5851BC86</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>footprints:r_0805</footprint>
+      <fields>
+        <field name="Desc">RES SMD 10K OHM 5% 1/4W 0805</field>
+        <field name="digikey#">RPC0805JT10K0DKR-ND</field>
+        <field name="manf">Stackpole Electronics Inc.</field>
+        <field name="manf#">RPC0805JT10K0</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5851BC92</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>BARREL_JACK</value>
+      <footprint>footprints:Pj-38-smt</footprint>
+      <fields>
+        <field name="Desc">Power Barrel Connector Jack 0.70mm ID (0.028), 2.35mm OD (0.093) EIAJ-1 Surface Mount, Right Angle</field>
+        <field name="digikey#">CP-038PJCT-ND</field>
+        <field name="manf">CUI Inc.</field>
+        <field name="manf#">PJ-038-SMT-TR</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="BARREL_JACK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5851D777</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>DF12B-3.0-10DS-0.5V-81</value>
+      <footprint>footprints:df12(3.0)-10ds-0.5v</footprint>
+      <fields>
+        <field name="Desc">10 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold</field>
+        <field name="digikey#">H11719CT-ND</field>
+        <field name="manf">Hirose Electric Co Ltd</field>
+        <field name="manf#">DF12B3.0-10DS-0.5V86</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="DF12B-3.0-10DS-0.5V-81"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58526B66</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>footprints:c_0805</footprint>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 16V X7R 0805 </field>
+        <field name="digikey#">490-1683-1-ND </field>
+        <field name="manf">Murata Electronics North America</field>
+        <field name="manf#">GRM219R71C104KA01D </field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5919F4B5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>footprints:c_0805</footprint>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 16V X7R 0805 </field>
+        <field name="digikey#">490-1683-1-ND </field>
+        <field name="manf">Murata Electronics North America</field>
+        <field name="manf#">GRM219R71C104KA01D </field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5919F4F6</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>footprints:c_0805</footprint>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 16V X7R 0805 </field>
+        <field name="digikey#">490-1683-1-ND </field>
+        <field name="manf">Murata Electronics North America</field>
+        <field name="manf#">GRM219R71C104KA01D </field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5919F6C5</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>footprints:c_0805</footprint>
+      <fields>
+        <field name="Desc">CAP CER 0.1UF 16V X7R 0805 </field>
+        <field name="digikey#">490-1683-1-ND </field>
+        <field name="manf">Murata Electronics North America</field>
+        <field name="manf#">GRM219R71C104KA01D </field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5919F6D1</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>footprints:c_0805</footprint>
+      <fields>
+        <field name="Desc">10uF 10% 16V Ceramic Capacitor X5R 0805</field>
+        <field name="digikey#">490-6473-1-ND</field>
+        <field name="manf">Murata Electronics North America</field>
+        <field name="manf#">GRM21BR61C106KE15K</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592489A0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>footprints:c_0805</footprint>
+      <fields>
+        <field name="Desc">10uF 10% 16V Ceramic Capacitor X5R 0805</field>
+        <field name="digikey#">490-6473-1-ND</field>
+        <field name="manf">Murata Electronics North America</field>
+        <field name="manf#">GRM21BR61C106KE15K</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59249061</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>footprints:c_0805</footprint>
+      <fields>
+        <field name="Desc">10uF 10% 16V Ceramic Capacitor X5R 0805</field>
+        <field name="digikey#">490-6473-1-ND</field>
+        <field name="manf">Murata Electronics North America</field>
+        <field name="manf#">GRM21BR61C106KE15K</field>
+      </fields>
+      <libsource lib="Expansion_Programacion-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58518DC2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Expansion_Programacion-cache" part="BARREL_JACK">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Expansion_Programacion-cache" part="BH10S">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">BH10S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Expansion_Programacion-cache" part="CON2">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">CON2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Expansion_Programacion-cache" part="C_Small">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Expansion_Programacion-cache" part="DF12B-3.0-10DS-0.5V-81">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DF12B-3.0-10DS-0.5V-81</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA_0" type="power_in"/>
+        <pin num="2" name="PA_1" type="power_in"/>
+        <pin num="3" name="PA_2" type="BiDi"/>
+        <pin num="4" name="PA_3" type="BiDi"/>
+        <pin num="5" name="PA_4" type="BiDi"/>
+        <pin num="6" name="PB_0" type="power_in"/>
+        <pin num="7" name="PB_1" type="BiDi"/>
+        <pin num="8" name="PB_2" type="BiDi"/>
+        <pin num="9" name="PB_3" type="BiDi"/>
+        <pin num="10" name="PB_4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Expansion_Programacion-cache" part="LM1117-RESCUE-Expancion_Programacion">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1117-RESCUE-Expancion_Programacion</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="output"/>
+        <pin num="2" name="Vout" type="power_out"/>
+        <pin num="3" name="Vin" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Expansion_Programacion-cache" part="LOGO_INTI">
+      <footprints>
+        <fp>INTILOGO</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">LOGO_INTI</field>
+      </fields>
+    </libpart>
+    <libpart lib="Expansion_Programacion-cache" part="Led_Small">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Expansion_Programacion-cache" part="R_Small">
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Expansion_Programacion-cache" part="SIDE_WTCM-TR(3x4)">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SIDE_WTCM-TR(3x4)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Expansion_Programacion-cache">
+      <uri>/home/enye2/enye-ext/mini/PCB_wearable/expansion_prog/Expansion_Programacion-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SWD_CLK_MCU">
+      <node ref="CON4" pin="4"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="SW1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="CON3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="CON4" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="3" name="/SWD_CLK_BT">
+      <node ref="J1" pin="4"/>
+      <node ref="CON3" pin="4"/>
+    </net>
+    <net code="4" name="/SWD_DIO_BT">
+      <node ref="J1" pin="3"/>
+      <node ref="CON3" pin="2"/>
+    </net>
+    <net code="5" name="/SWD_DIO_MCU">
+      <node ref="J1" pin="8"/>
+      <node ref="CON4" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="7" name="/~RESET_b">
+      <node ref="SW2" pin="2"/>
+      <node ref="J1" pin="9"/>
+      <node ref="C7" pin="1"/>
+      <node ref="CON4" pin="10"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="8" name="/RST_BT">
+      <node ref="SW1" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="CON3" pin="10"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="CON4" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="CON4" pin="5"/>
+      <node ref="CON4" pin="7"/>
+      <node ref="CON3" pin="9"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="CON1" pin="3"/>
+      <node ref="CON1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="CON2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="CON3" pin="7"/>
+      <node ref="CON3" pin="5"/>
+      <node ref="CON3" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="CON4" pin="9"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="10" name="Net-(CON4-Pad8)">
+      <node ref="CON4" pin="8"/>
+    </net>
+    <net code="11" name="Net-(CON3-Pad6)">
+      <node ref="CON3" pin="6"/>
+    </net>
+    <net code="12" name="Net-(CON4-Pad6)">
+      <node ref="CON4" pin="6"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad10)">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="14" name="VPP">
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="CON3" pin="8"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C5-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="17" name="+12V">
+      <node ref="U2" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="CON2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="CON1" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+  </nets>
+</export>
